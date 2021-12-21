@@ -1,0 +1,12 @@
+@import "../styles/variable";
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    .line{
+      width: 96px;
+      height: 2px;
+      margin: 0 24px 0 0;
+      background-color: white;
+    }
+  }

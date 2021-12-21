@@ -1,0 +1,18 @@
+//Variables
+$primary: #090909;
+$subprimary: #DDDDDD;
+$paragraph: #9C9C9C;
+$caption: #686868;
+$gray50: rgba(62, 62, 62, 0.5);
+
+$font-h: 'Poppins', sans-serif;
+$font-p: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+$breakpoints: (
+    "md": "screen and (max-width: 768px)"
+) !default;
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+  }
+}
