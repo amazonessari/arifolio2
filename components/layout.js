@@ -11,7 +11,7 @@ import { useState } from "react";
 const name = 'ARIFOLIO'
 export const siteTitle = 'ARIFOLIO'
 
-export async function getStaticProps() {
+export default async function getStaticProps() {
   const allPostsData = getSortedPostsData()
   return {
     props: {
