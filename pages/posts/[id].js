@@ -22,7 +22,6 @@ export async function getStaticPaths() {
   }
 }
 
-
 export default function Post({ postData }) {
   return (
     <Layout>
@@ -39,6 +38,7 @@ export default function Post({ postData }) {
               height={752}
               width={1200}
               alt=""
+              className={Styles.image}
             />
         </div>
         <div className={Styles.summary}>
@@ -53,9 +53,23 @@ export default function Post({ postData }) {
         <div className={Styles.details}>
           <div className={Styles.tags}>
             <h2>My Role</h2>
-            <p>{postData.role}</p>
+            <ul>
+              {postData.role.map((el)=>{
+                return <li>{el}</li>
+              })}
+            </ul>
             <h2>Technology</h2>
-            <p>{postData.technology}</p>
+            <ul>
+              {postData.technology.map((el)=>{
+                return <li>{el}</li>
+              })}
+            </ul>
+            {postData.client!=null && 
+              <>
+                <h2>Client</h2>
+                <p>{postData.client}</p>
+              </>
+            }
           </div>
           <Image
               priority

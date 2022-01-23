@@ -1,0 +1,70 @@
+.external {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 32px;
+  border-radius: 100px;
+  border: 1px solid #DDDDDD;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.external svg {
+  margin: 0 0 0 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.external:hover {
+  background-color: #DDDDDD;
+  color: #090909;
+}
+
+.external:hover svg {
+  -webkit-transform: translateX(4px);
+          transform: translateX(4px);
+}
+
+.external:hover svg path {
+  stroke: #090909;
+}
+
+.internal {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #DDDDDD;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 32px;
+  color: #090909;
+  border-radius: 100px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid #DDDDDD;
+}
+
+.internal svg {
+  margin: 0 0 0 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.internal:hover {
+  background-color: #090909;
+  color: #DDDDDD;
+}
+
+.internal:hover svg {
+  -webkit-transform: translateX(4px);
+          transform: translateX(4px);
+}
+
+.internal:hover svg path {
+  stroke: #DDDDDD;
+}
+/*# sourceMappingURL=button.module.css.map */

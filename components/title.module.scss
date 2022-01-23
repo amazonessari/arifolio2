@@ -5,8 +5,14 @@
     align-items: center;
     .line{
       width: 96px;
-      height: 2px;
+      height: 1px;
       margin: 0 24px 0 0;
-      background-color: white;
+      background-color: $paragraph;
+    }
+    @include mq(md) {
+      .line{
+        width: 24px;
+        margin: 0 8px 0 0;
+      }
     }
   }

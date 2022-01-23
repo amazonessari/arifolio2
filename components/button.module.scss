@@ -6,8 +6,20 @@
     padding: 8px 32px;
     border-radius: 100px;
     border: 1px solid $subprimary;
+    transition: 0.3s;
     svg{
         margin: 0 0 0 8px;
+        transition: 0.3s;
+    }
+    &:hover{
+        background-color: $subprimary;
+        color: $primary;
+        svg{
+            transform: translateX(4px);
+            path{
+                stroke: $primary;
+            }
+        }
     }
 }
 
@@ -18,7 +30,20 @@
     padding: 8px 32px;
     color: $primary;
     border-radius: 100px;
+    transition: 0.3s;
+    border: 1px solid $subprimary;
     svg{
         margin: 0 0 0 8px;
+        transition: 0.3s;
+    }
+    &:hover{
+        background-color: $primary;
+        color: $subprimary;
+        svg{
+            transform: translateX(4px);
+            path{
+                stroke: $subprimary;
+            }
+        }
     }
 }

@@ -1,0 +1,133 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #090909;
+  color: #DDDDDD;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, .heading1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: #DDDDDD;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  h1, .heading1 {
+    font-size: 32px;
+  }
+}
+
+h2, .heading2 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #DDDDDD;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  h2, .heading2 {
+    font-size: 28px;
+  }
+}
+
+h3, .heading3 {
+  font-family: "Poppins", sans-serif;
+  line-height: 2;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  color: #DDDDDD;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  h3, .heading3 {
+    font-size: 20px;
+  }
+}
+
+p, li, .p1 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #9C9C9C;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  p, li, .p1 {
+    font-size: 14px;
+  }
+}
+
+.sTitle {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  color: #9C9C9C;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sTitle {
+    font-size: 12px;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #DDDDDD;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  a {
+    font-size: 14px;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.groupP {
+  display: inline-block;
+}
+/*# sourceMappingURL=global.css.map */

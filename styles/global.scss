@@ -15,6 +15,11 @@ html{
   box-sizing: border-box;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
 h1, .heading1{
   font-family: $font-h;
   line-height: 1.2;
@@ -57,7 +62,7 @@ h3, .heading3{
   }
 }
 
-p, .p1{
+p, li, .p1{
   font-family: $font-p;
   line-height: 2;
   font-size: 18px;
@@ -81,7 +86,7 @@ p, .p1{
   color: $paragraph;
   margin: 0;
   @include mq(md) {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -95,6 +100,9 @@ a {
   letter-spacing: 0.02em;
   color: $subprimary;
   margin: 0;
+  @include mq(md) {
+    font-size: 14px;
+  }
 }
 
 img {
