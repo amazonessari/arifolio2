@@ -42,8 +42,7 @@ export default function Home({ allPostsData }) {
                     </div>
                 </div>
                 <div className={Styles.text}>
-                    <LightSpeed big>
-                    <h1>Hello👋 <br/>It's Arisa!</h1></LightSpeed>
+                    <LightSpeed><h1>Hello👋 <br/>It's Arisa!</h1></LightSpeed>
                     <p>Arisa is a UIUX Designer who researches, creates, and codes user-centered products.<br/>
                     She bought a $100 laptop at the age of 20, got a chance as a design intern at 21, started full-time design work at 22, joined a giant tech company at 24 in 2021.<br/>
                     Might sound inexperienced but she has been acquiring a high degree of skills and knowledge tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>

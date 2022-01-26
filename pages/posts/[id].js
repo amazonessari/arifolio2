@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Styles from '../../styles/post.module.scss'
 import Button from '../../components/button'
+import Fade from 'react-reveal/Fade';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
@@ -30,6 +31,7 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <div className={Styles.hero}>
+          <Fade bottom>
           <p class="sTitle">{postData.type}</p>
           <h1>{postData.title}</h1>
           <Image
@@ -40,6 +42,7 @@ export default function Post({ postData }) {
               alt=""
               className={Styles.image}
             />
+            </Fade>
         </div>
         <div className={Styles.summary}>
           <div className={Styles.summaryLeft}>
