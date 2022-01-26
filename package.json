@@ -1,6 +1,6 @@
 {
   "private": true,
-  "type":"Commonjs",
+  "type": "commonjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
