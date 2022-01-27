@@ -1,15 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
 import Title from '../components/title'
 import Layout, { siteTitle } from '../components/layout'
 import Styles from '../styles/about.module.scss'
-import Button from '../components/button'
-import * as THREE from 'three';
+import Button from '../components/button';
 
 import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/LightSpeed';
-import Bounce from 'react-reveal/Bounce';
 
 export default function Home({ allPostsData }) {
     return (

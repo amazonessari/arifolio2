@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Title from '../components/title'
 import Layout, { siteTitle } from '../components/layout'
 import Styles from '../styles/home.module.scss'
 import { getSortedPostsData } from '../lib/posts'
@@ -10,7 +9,7 @@ import * as THREE from 'three';
 
 import ReactDOM from 'react-dom'
 import React, { useRef, useState } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { useFrame } from '@react-three/fiber'
 
 import Fade from 'react-reveal/Fade';
 
