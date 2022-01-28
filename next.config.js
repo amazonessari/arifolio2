@@ -10,6 +10,6 @@ module.exports = withPlugins([[optimizedImages, {}]], {
     });
     return config;
   },
-},{
+}),{
   swcMinify: false,
-});
+};
