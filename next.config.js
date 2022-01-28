@@ -11,3 +11,7 @@ module.exports = withPlugins([[optimizedImages, {}]], {
     return config;
   },
 });
+
+module.exports = {
+  swcMinify: false,
+}
