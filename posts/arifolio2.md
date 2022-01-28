@@ -20,9 +20,6 @@ First I looked through design job recruitments and accepted portfolios of giant 
 ![Job recruitment](/arifolio2/research_3.png)
 
 
-![Resume link](/arifolio2/research_4.png)
-
-
 ## 2. Scope
 I created content and information architecture to tell their ideal profile and qualifications I meet based on research.
 In order to approach global leaders and talents, emphasized the logical process.
@@ -52,3 +49,5 @@ I prioritised usability by making link remarkable, use more images or icons with
 
 ## 5. Code
 I designed in Figma, and coded all with HTML, CSS, JavaScript, and Next.js.
+
+![Image of Code](/arifolio2/code.png)
