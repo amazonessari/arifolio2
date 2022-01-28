@@ -1,3 +1,5 @@
+/*
+
 const withPlugins = require("next-compose-plugins");
 const optimizedImages = require("next-optimized-images");
 
@@ -11,3 +13,9 @@ module.exports = withPlugins([[optimizedImages, {}]], {
     return config;
   },
 });
+
+*/
+
+module.exports = {
+  swcMinify: false
+}
