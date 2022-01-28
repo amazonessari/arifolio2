@@ -6,7 +6,6 @@ import Styles from '../styles/about.module.scss'
 import Button from '../components/button';
 
 import Fade from 'react-reveal/Fade';
-import LightSpeed from 'react-reveal/LightSpeed';
 
 export default function Home({ allPostsData }) {
     return (
@@ -18,6 +17,7 @@ export default function Home({ allPostsData }) {
         <section className={Styles.hero}>
             <div className={Styles.bio}>
                 <div className={Styles.image}>
+                <Fade bottom>
                     <Image
                         priority
                         src="/images/profile.png"
@@ -26,7 +26,6 @@ export default function Home({ allPostsData }) {
                         alt="Photo"
                     />
                     <div className={Styles.message}>
-                        <Fade>
                         <Image
                         priority
                         className="mt-3"
@@ -35,15 +34,16 @@ export default function Home({ allPostsData }) {
                         width={600}
                         alt="Message"
                         />
-                        </Fade>
                     </div>
+                </Fade>
                 </div>
                 <div className={Styles.text}>
-                    <LightSpeed><h1>Hello👋 <br/>It's Arisa!</h1></LightSpeed>
+                <Fade bottom>
+                    <h1>Hello👋 <br/>It's Arisa!</h1>
                     <p>Arisa is a UIUX Designer who researches, creates, and codes user-centered products.<br/>
-                    She bought a $100 laptop at the age of 20, got a chance as a design intern at 21, started full-time design work at 22, joined a giant tech company at 24 in 2021.<br/>
-                    Might sound inexperienced but she has been acquiring a high degree of skills and knowledge tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>
-                    Currently, participating as a UX designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
+                    She bought a $100 laptop at the age of 20, joined a tech startup as a design intern at 21, started full-time design work at 22, and got an offer from a giant tech company at 24.<br/>
+                    She has been acquiring a high degree of skills and knowledge so tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>
+                    Currently, participating as a UX researcher and UI designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
                     </p>
                     <div className={Styles.passion}>
                         <div className={Styles.passionTitle}>
@@ -53,6 +53,7 @@ export default function Home({ allPostsData }) {
                         <p className={Styles.passionP}>#UX  #Design  #Technology  #Marketing  #Finance  #Investment  #Gadget  #Minimalism  #Chocolate🍫</p>
                     </div>
                     <Button link="../resume.pdf" text="Download CV" external>Download CV</Button>
+                </Fade>
                 </div>
             </div>
         </section>
