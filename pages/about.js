@@ -18,6 +18,7 @@ export default function Home({ allPostsData }) {
         <section className={Styles.hero}>
             <div className={Styles.bio}>
                 <div className={Styles.image}>
+                <Fade bottom>
                     <Image
                         priority
                         src="/images/profile.png"
@@ -37,13 +38,15 @@ export default function Home({ allPostsData }) {
                         />
                         </Fade>
                     </div>
+                </Fade>
                 </div>
                 <div className={Styles.text}>
-                    <LightSpeed><h1>Hello👋 <br/>It's Arisa!</h1></LightSpeed>
-                    <p>Arisa is a UIUX Designer who researches, creates, and codes user-centered products.<br/>
-                    She bought a $100 laptop at the age of 20, got a chance as a design intern at 21, started full-time design work at 22, joined a giant tech company at 24 in 2021.<br/>
-                    Might sound inexperienced but she has been acquiring a high degree of skills and knowledge tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>
-                    Currently, participating as a UX designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
+                <Fade bottom>
+                    <h1>Hello👋 <br/>It's Arisa!</h1>
+                    <p>Arisa is a UIUX Designer who researches, creates, and codes user-centered services.<br/>
+                    She bought a $100 laptop at the age of 20, joined a tech startup as a design intern at 21, started full-time design work at 22, and got an offer from a giant tech company at 24.<br/>
+                    She has been acquiring a high degree of skills and knowledge so tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>
+                    Currently, participating as a UX researcher and UI designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
                     </p>
                     <div className={Styles.passion}>
                         <div className={Styles.passionTitle}>
@@ -53,6 +56,7 @@ export default function Home({ allPostsData }) {
                         <p className={Styles.passionP}>#UX  #Design  #Technology  #Marketing  #Finance  #Investment  #Gadget  #Minimalism  #Chocolate🍫</p>
                     </div>
                     <Button link="../resume.pdf" text="Download CV" external>Download CV</Button>
+                </Fade>
                 </div>
             </div>
         </section>
@@ -73,7 +77,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Strategy</h3>
                             </div>
-                            <p>My first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
+                            <p>Our first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -86,7 +90,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Scope</h3>
                             </div>
-                            <p>Secondly, make a scope to define the functional and content requirements that fulfill and be aligned with the strategic goals. </p>
+                            <p>Secondly, we make a scope to define the functional and content requirements that fulfill and be aligned with the strategic goals. </p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -99,7 +103,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Structure</h3>
                             </div>
-                            <p>Thirdly, make a structure that defines how the system behaves when users interact, how it’s organized, prioritized, and how much of it.</p>
+                            <p>Thirdly, make a structure that defines how the system behaves when users interact, how it's organized, prioritized, and how much of it.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -125,7 +129,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Surface</h3>
                             </div>
-                            <p>Finally, we can make the surface (interface) as the sum total of the decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.</p>
+                            <p>Finally, we can create the surface (interface) as the sum total of the decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.</p>
                         </div>
                     </Fade>
                 </div>
@@ -323,7 +327,7 @@ export default function Home({ allPostsData }) {
                 </div>
                 <div className={Styles.skill}>
                     <p>Prototyping</p>
-                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.p75}`}></div></Fade></div>
+                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.p100}`}></div></Fade></div>
                 </div>
                 </div>
                 <div className={Styles.type}>
