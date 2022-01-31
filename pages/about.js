@@ -210,7 +210,7 @@ export default function Home({ allPostsData }) {
                     <svg width="488" height="219" viewBox="0 0 488 219" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M469.637 113.15L477.772 109.5L469.637 105.851L245.637 5.35052L244 4.61589L242.363 5.35052L18.3626 105.85L10.2283 109.5L18.3626 113.15L242.363 213.649L244 214.384L245.637 213.649L469.637 113.15Z" fill="#3E3E3E" fill-opacity="0.2" stroke="#090909" stroke-width="8"/></svg>
                 </div>
                 <div className={Styles.text}>
-                    <p>My first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
+                    <p>Our first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
                 </div>
                 <div className={Styles.stage}>
                     <Image

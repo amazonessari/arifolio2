@@ -37,7 +37,7 @@
     .right{
       position: relative;
       transition: 0.3s;
-      border-bottom: 1px solid $primary;
+      border-bottom: 1px solid rgba(221, 221, 221, 0);
       pointer-events: auto;
       &::after{
         content: "";
@@ -121,7 +121,6 @@
 
   @include mq(md) {
     .header{
-      //display: none;
       padding: 24px;
       height: 160px;
     }
