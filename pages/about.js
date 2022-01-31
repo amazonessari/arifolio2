@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
                 <div className={Styles.text}>
                 <Fade bottom>
                     <h1>Hello👋 <br/>It's Arisa!</h1>
-                    <p>Arisa is a UIUX Designer who researches, creates, and codes user-centered products.<br/>
+                    <p>Arisa is a UIUX Designer who enjoys researching on deep insights of users.<br/>
                     She bought a $100 laptop at the age of 20, joined a tech startup as a design intern at 21, started full-time design work at 22, and got an offer from a giant tech company at 24.<br/>
                     She has been acquiring a high degree of skills and knowledge so tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>
                     Currently, participating as a UX researcher and UI designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
@@ -74,7 +74,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Strategy</h3>
                             </div>
-                            <p>My first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
+                            <p>Our first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -324,7 +324,7 @@ export default function Home({ allPostsData }) {
                 </div>
                 <div className={Styles.skill}>
                     <p>Prototyping</p>
-                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.p75}`}></div></Fade></div>
+                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.p100}`}></div></Fade></div>
                 </div>
                 </div>
                 <div className={Styles.type}>

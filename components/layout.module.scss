@@ -121,7 +121,9 @@
 
   @include mq(md) {
     .header{
-      display: none;
+      //display: none;
+      padding: 24px;
+      height: 160px;
     }
     .humbuger{
       display: block;

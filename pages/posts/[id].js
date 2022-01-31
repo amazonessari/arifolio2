@@ -32,8 +32,6 @@ export default function Post({ postData }) {
       <article>
         <div className={Styles.hero}>
           <Fade bottom>
-          <p class="sTitle">{postData.type}</p>
-          <h1>{postData.title}</h1>
           <Image
               priority
               src={`/${postData.id}/thumbnail.png`}
@@ -42,6 +40,8 @@ export default function Post({ postData }) {
               alt=""
               className={Styles.image}
             />
+          <p class="sTitle">{postData.type}</p>
+          <h1>{postData.title}</h1>
             </Fade>
         </div>
         <div className={Styles.summary}>
@@ -61,12 +61,16 @@ export default function Post({ postData }) {
                 return <li>{el}</li>
               })}
             </ul>
-            <h2>Technology</h2>
-            <ul>
-              {postData.technology.map((el)=>{
-                return <li>{el}</li>
-              })}
-            </ul>
+            {postData.member!=null && 
+              <>
+                <h2>Member</h2>
+                <ul>
+                  {postData.member.map((el)=>{
+                    return <li>{el}</li>
+                  })}
+                </ul>
+              </>
+            }
             {postData.client!=null && 
               <>
                 <h2>Client</h2>

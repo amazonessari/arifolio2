@@ -5,7 +5,7 @@ type: "Product Website"
 url: "https://miahire.com/ja/"
 summary: "MiaHire is a video interview platform to reduce costs of hiring process. Since its website had to be launched quickly, I designed, coded, and deployed it in 3 weeks."
 role: ["Web Design", "Coding"]
-technology: ["Figma", "HTML", "CSS", "JavaScript", "WordPress"]
+member: ["Director"]
 client: "MiaTech Inc."
 ---
 

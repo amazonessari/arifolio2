@@ -8,8 +8,8 @@ import Button from '../components/button'
 import { useState } from "react";
 /* */
 
-const name = 'ARIFOLIO'
-export const siteTitle = 'ARIFOLIO'
+const name = 'Arisa\'s portfolio'
+export const siteTitle = 'Arisa\'s portfolio'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -51,6 +51,7 @@ export default function Layout({ children, about }) {
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans:wght@300;400&family=Inter:wght@300;400&family=Oxygen:wght@300;400&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:wght@300;400&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"></link>
+
       </Head>
 
       <header className={Styles.header}>
@@ -58,16 +59,13 @@ export default function Layout({ children, about }) {
           <>
             <Link href="/">
               <a className={Styles.left}>
-                <svg width="179" height="40" viewBox="0 0 179 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M26.6195 34.8602H31.7168L21.1398 5.2956H15.5327L4.95575 34.8602H10.0106H26.6195ZM25.2236 30.3222H11.5952L18.3363 11.1575L25.2236 30.3222Z" fill="#DDDDDD"/>
-                  <path d="M58.907 34.8602H63.7494V5.33808H58.907V34.8602Z" fill="#DDDDDD"/>
-                  <path d="M67.9833 34.8602H72.8258V21.9469H82.5957V17.9965H72.8258V9.28852H85.3567V5.33808H67.9833V34.8602Z" fill="#DDDDDD"/>
-                  <path d="M116.266 20.0354C116.266 11.2 109.597 4.95578 101.186 4.95578C92.8604 4.95578 86.1064 11.2 86.1064 20.0354C86.1064 28.9133 92.8604 35.1575 101.186 35.1575C109.597 35.1575 116.266 28.9133 116.266 20.0354ZM91.0763 20.0354C91.0763 13.3664 95.3241 9.20357 101.186 9.20357C107.048 9.20357 111.296 13.3664 111.296 20.0354C111.296 26.7044 107.048 30.9522 101.186 30.9522C95.3241 30.9522 91.0763 26.7044 91.0763 20.0354Z" fill="#DDDDDD"/>
-                  <path d="M118.907 5.33808V34.8602H136V30.9522H123.749V5.33808H118.907Z" fill="#DDDDDD"/>
-                  <path d="M135.657 34.8602H140.5V20.0991V5.33808H135.657V34.8602Z" fill="#DDDDDD"/>
-                  <path d="M173.279 20.0354C173.279 11.2 166.61 4.95578 158.199 4.95578C149.874 4.95578 143.12 11.2 143.12 20.0354C143.12 28.9133 149.874 35.1575 158.199 35.1575C166.61 35.1575 173.279 28.9133 173.279 20.0354ZM148.09 20.0354C148.09 13.3664 152.337 9.20357 158.199 9.20357C164.061 9.20357 168.309 13.3664 168.309 20.0354C168.309 26.7044 164.061 30.9522 158.199 30.9522C152.337 30.9522 148.09 26.7044 148.09 20.0354Z" fill="#DDDDDD"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M44.3865 19.1859C48.167 19.1859 49.8661 17.1044 49.8661 14.1735C49.8661 11.2 48.167 9.28852 44.3865 9.28852H39.0343V34.8602H34.1918V5.33808H44.3865C51.3953 5.33808 54.836 9.37348 54.836 14.1735C54.836 17.6567 52.967 21.3947 47.9971 22.6266L55.3033 34.8602H49.5263L43.7899 24.8932V19.1859H44.3865Z" fill="#DDDDDD"/>
-                </svg>
+                <Image
+                  priority
+                  src="/images/logo_arisa.svg"
+                  height={40}
+                  width={115}
+                  alt={name}
+                />
               </a>
             </Link>
             <div></div>
@@ -78,9 +76,9 @@ export default function Layout({ children, about }) {
               <a className={Styles.left}>
                 <Image
                   priority
-                  src="/images/logo_arifolio.svg"
+                  src="/images/logo_arisa.svg"
                   height={40}
-                  width={180}
+                  width={115}
                   alt={name}
                 />
               </a>
@@ -94,6 +92,7 @@ export default function Layout({ children, about }) {
         )}
       </header>
 
+      {/*
       <div onClick={handleToggle} className={Styles.humbuger}>
         <div className={isActive ? Styles.container : `${Styles.container} ${Styles.active}`}>
           <span></span>
@@ -121,6 +120,7 @@ export default function Layout({ children, about }) {
           </div>
         </div>
       </div>
+        */}
 
       <main>{children}</main>
 

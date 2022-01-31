@@ -7,7 +7,7 @@ summary: "This is a corporate website to obtain orders for development services.
 First identified client trends by analyzing data. And then we figured out personas and customer journeys with verious professionals and made wireframes based on the emotions of the personas.
 After repeating enhancements, the number of accesses increased 10 times."
 role: ["Analysis", "Information Architecture", "Workshop", "Interview", "Branding", "Design System", "Web Design", "Coding"]
-technology: ["Figma", "HTML", "CSS", "JavaScript", "WordPress"]
+member: ["CEO", "Executives", "Director"]
 client: "Enlyt, Inc."
 ---
 
