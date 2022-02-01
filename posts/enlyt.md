@@ -20,7 +20,7 @@ I started by analyzing data to create accurate personas. From company type, budg
 
 ## Strategy
 
-I led workshop collaborating with executives, sales, business analyst, and director. We created customer journey of personas, also based on facts.
+Created 3 types of persona through analysis. To make it accurate, let each persona have the most common features.
 
 ![Image of flow](/enlyt/2.png)
 
@@ -68,6 +68,6 @@ After
 
 ## Code
 
-I designed in Figma, and coded all with HTML, CSS, JavaScript, and WordPress under the review by an SEO specialist. Implemented 3 post types News, Blog, and Recruit managed in CMS, and Contact form that send to email addresses of the company and applicants.
+I designed in Figma, and coded all with HTML, CSS, JavaScript, and WordPress on AWS under the review by an SEO specialist. Implemented 3 post types News, Blog, and Recruit managed in CMS, and Contact form that send to email addresses of the company and applicants.
 
 ![Image of code](/enlyt/9.png)

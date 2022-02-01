@@ -9,7 +9,7 @@ role: ["Information Architecture", "Branding", "Web Design", "Coding"]
 technology: ["Figma", "HTML", "CSS", "JavaScript", "Next.js", "Three.js"]
 ---
 
-## 1. Research
+## Research
 First I looked through design job recruitments and accepted portfolios of giant tech companies to clarify what is expected of designers. 
 
 ![Job recruitment](/arifolio2/research_1.png)
@@ -19,17 +19,20 @@ First I looked through design job recruitments and accepted portfolios of giant 
 ![Job recruitment](/arifolio2/research_3.png)
 
 
-## 2. Scope
+
+## Scope
 I created content and information architecture to tell their ideal profile and qualifications I meet based on research.
 In order to approach global leaders and talents, emphasized the logical process.
 
 
-## 3. Identity
+
+## Identity
 Black and minimalism are my identity as I only wear the same black outfit everyday. I made this identity from the keyword “Minimalism”.
 
 Logo
 
 ![Image of Logo](/arifolio2/1.svg)
+
 
 Color
 
@@ -41,12 +44,13 @@ Typography
 ![Image of Typography](/arifolio2/3.svg)
 
 
-## 4. Communication
+
+## Communication
 I prioritised usability by making link remarkable, use more images or icons with no much writing. Minimal design makes my works stand out, so tried my best to make it simple.
 
 
 
-## 5. Code
+## Code
 I designed in Figma, and coded all with HTML, CSS, JavaScript, and Next.js.
 
 ![Image of Code](/arifolio2/code.png)
