@@ -182,3 +182,37 @@
         padding: 0 24px;
     }
 }
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 120px 120px;
+    .internal{
+        display: inline-flex;
+        background-color: $subprimary;
+        align-items: center;
+        padding: 8px 32px;
+        color: $primary;
+        border-radius: 100px;
+        transition: 0.3s;
+        border: 1px solid $subprimary;
+        svg{
+            margin: 0 8px 0 0;
+            transition: 0.3s;
+        }
+        &:hover{
+            background-color: $primary;
+            color: $subprimary;
+            svg{
+                transform: translateX(-4px);
+                path{
+                    stroke: $subprimary;
+                }
+            }
+        }
+    }
+    @include mq(md) {
+        padding: 40px 24px 120px;
+    }
+}

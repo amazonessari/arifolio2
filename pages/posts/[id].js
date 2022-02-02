@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Styles from '../../styles/post.module.scss'
 import Button from '../../components/button'
 import Fade from 'react-reveal/Fade';
+import Link from 'next/link'
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
@@ -89,6 +90,14 @@ export default function Post({ postData }) {
         <h2 className={Styles.processTitle}>Process</h2>
         <div className={Styles.process} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+      <div className={Styles.back}>
+        <Link href="/">
+            <a className={Styles.internal}>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.86693 3.7334L1.60026 8.00006H14.9336" stroke="#090909"/></svg>
+              Back to List
+            </a>
+          </Link>
+      </div>
     </Layout>
   )
 }

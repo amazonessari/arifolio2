@@ -52,7 +52,7 @@ export default function Home({ allPostsData }) {
                         </div>
                         <p className={Styles.passionP}>#UX  #Design  #Technology  #Marketing  #Finance  #Investment  #Gadget  #Minimalism  #Chocolate🍫</p>
                     </div>
-                    <Button link="../resume.pdf" text="Download CV" external>View Resume</Button>
+                    <Button link="../resume.pdf" text="View Resume" external>View Resume</Button>
                 </Fade>
                 </div>
             </div>
