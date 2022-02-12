@@ -41,7 +41,7 @@ export default function Layout({ children, about }) {
           content="/OGP.png"
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="/OGP.png" />
+        <meta name="twitter:card" content="summary_large_image" />
 
         //aos
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -51,7 +51,7 @@ export default function Layout({ children, about }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans:wght@300;400&family=Inter:wght@300;400&family=Oxygen:wght@300;400&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:wght@300;400&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"></link>
 
-        
+
 
       </Head>
 
