@@ -79,13 +79,15 @@ export default function Post({ postData }) {
               </>
             }
           </div>
-          <Image
-              priority
-              src={`/${postData.id}/sub.png`}
-              height={720}
-              width={720}
-              alt=""
-            />
+          <div className={Styles.subImage}>
+            <Image
+                priority
+                src={`/${postData.id}/sub.png`}
+                height={800}
+                width={800}
+                alt=""
+              />
+          </div>
         </div>
         <h2 className={Styles.processTitle}>Process</h2>
         <div className={Styles.process} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

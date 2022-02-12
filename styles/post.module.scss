@@ -59,7 +59,7 @@
     align-items: flex-start;
     .tags{
         width: 50%;
-        margin: 0 0 0 120px;
+        padding: 0 0 0 120px;
         h2{
             margin: 80px 0 8px;
             &:first-child{
@@ -72,12 +72,17 @@
             list-style-type: none;
         }
     }
+    .subImage{
+        width: 50%;
+    }
     @include mq(md) {
         flex-direction: column;
         .tags{
             width: 100%;
-            margin: 0;
             padding: 0 24px 80px;
+        }
+        .subImage{
+            width: 100%;
         }
     }
 }
@@ -187,7 +192,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 120px 120px;
+    padding: 0 120px 120px;
     .internal{
         display: inline-flex;
         background-color: $subprimary;
@@ -213,6 +218,6 @@
         }
     }
     @include mq(md) {
-        padding: 40px 24px 120px;
+        padding: 0 24px 120px;
     }
 }
