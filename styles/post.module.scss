@@ -181,6 +181,13 @@
     p{
         margin: 16px 0 16px;
     }
+    hr{
+        margin: 80px 0;
+        border: 1px solid $gray50;
+        @include mq(md) {
+            margin: 40px 0;
+        }
+    }
     @include mq(md) {
         width: 100%;
         margin: 0 0 120px;
