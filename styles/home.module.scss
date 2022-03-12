@@ -23,6 +23,7 @@
         font-size: 0;
         img{
           transition: 0.3s;
+          object-fit: cover;
         }
         &:hover{
           img{

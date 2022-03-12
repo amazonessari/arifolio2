@@ -19,10 +19,14 @@
     "react-dom": "^17.0.2",
     "react-markdown": "^7.1.1",
     "react-reveal": "^1.2.2",
+    "react-youtube": "^7.14.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "sass": "^1.45.0",
-    "three": "^0.135.0"
+    "three": "^0.135.0",
+    "zenn-content-css": "^0.1.81",
+    "zenn-markdown-html": "^0.1.81",
+    "zenn-embed-elements": "^0.1.81"
   },
   "devDependencies": {
     "raw-loader": "^4.0.2"
