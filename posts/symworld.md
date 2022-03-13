@@ -3,14 +3,14 @@ title: "UX research and design for network operator"
 date: "2022-03-01"
 type: "B2B Cloud Pratform"
 url: "https://symphony.rakuten.com/symworld/welcome-to-symworld"
-summary: "Symworld is everything that modern communications service providers need to plan, build and operate advanced, secure, high quality networks, in a single, revolutionary platform. I am mainly in charge of UX research and design with communicating closely with product owners, developers, and over 30 designers."
+summary: "Symworld is everything that modern communications service providers need to plan, build and operate advanced, secure, high-quality networks, in a single, revolutionary platform. I am in charge of UX research and design communicating closely with product owners, developers, and no less than 30 designers in a fast-growing team."
 role: ["Usability Test", "Information Architecture", "UI Design", "Prototyping", "User Interview"]
 member: ["Business analyst", "Product Owner", "Designer", "Frontend Engineer"]
 ---
 
 ## Usability Test
 
-We report qualitative usability issues and [System Usability Scale (SUS)](https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html) score of more than 30 products by conducting 1on1 user interviews before release to avoid loss of business oppotunities and brand damage risks.
+We conduct 1on1 user interviews to figure out qualitative usability issues and [System Usability Scale (SUS)](https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html) score of around 40 products with a couple of members. Report and enhance before release to avoid loss of business oppotunities and brand damage risks.
 
 To run an effective test, we develop a test plan, recruit participants, design the test, and report findings.
 
@@ -44,7 +44,7 @@ Calculate SUS score and create issue summary report.
 ### 6. Enhancement plan
 
 Lastly, make sure to convey each usability issue and schedule how to address them with stakeholders.
-Assign designers to track enhancement.
+Assign designers and track enhancement.
 
 
 ## Surface
