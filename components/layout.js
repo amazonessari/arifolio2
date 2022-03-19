@@ -4,9 +4,7 @@ import Link from 'next/link'
 import Title from '../components/title'
 import Styles from './layout.module.scss'
 import Button from '../components/button'
-/* Added */
 import { useState } from "react";
-/* */
 
 const name = 'Arisa\'s Portfolio'
 export const siteTitle = 'Arisa\'s Portfolio'
@@ -50,8 +48,6 @@ export default function Layout({ children, about }) {
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans:wght@300;400&family=Inter:wght@300;400&family=Oxygen:wght@300;400&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:wght@300;400&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"></link>
-
-
 
       </Head>
 
