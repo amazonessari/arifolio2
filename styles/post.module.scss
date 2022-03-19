@@ -2,6 +2,9 @@
 
 .hero{
     padding: 200px 120px 0;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
     .image{
         border-radius: 16px;
         object-fit: cover;
@@ -30,6 +33,8 @@
     display: flex;
     padding: 120px;
     width: 100%;
+    max-width: 1500px;
+    margin: auto;
     .summaryLeft{
         width: 50%;
         display: flex;
@@ -58,6 +63,9 @@
 .details{
     display: flex;
     align-items: flex-start;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
     .tags{
         width: 50%;
         padding: 0 0 0 120px;
@@ -89,15 +97,19 @@
 }
 
 .processTitle{
-    margin: 120px 120px 0;
+    padding: 120px 120px 0;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
     @include mq(md) {
         margin: 120px 24px 0;
     }
 }
 
 .process{
-    width: 600px;
     margin: 0 auto 120px;
+    width: 100%;
+    max-width: 600px;
     h1{
         margin: 80px 0 16px;
         font-family: $font-h;

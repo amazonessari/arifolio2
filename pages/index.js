@@ -86,8 +86,8 @@ export default function Home({ allPostsData }) {
                   <Image
                       priority
                       src={`/${id}/thumbnail.png`}
-                      height={502.22}
-                      width={800}
+                      height={1004.4}
+                      width={1600}
                       alt={name}
                     />
                 </a>

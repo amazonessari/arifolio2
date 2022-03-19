@@ -2,8 +2,10 @@
 
 
 .hero{
-    width: 100%;
     padding: 200px 0 200px;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
     .bio{
         padding: 0 120px;
         display: flex;
@@ -63,6 +65,9 @@
 .workflowSection{
     padding: 120px 0 200px;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
     .igPc{
         display: flex;
         position: relative;
@@ -159,6 +164,9 @@
   
 .skillSection{
     padding: 120px 120px 200px;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
     .skills{
         display: flex;
         justify-content: space-between;

@@ -36,8 +36,8 @@ export default function Post({ postData }) {
           <Image
               priority
               src={`/${postData.id}/thumbnail.png`}
-              height={752}
-              width={1200}
+              height={1504}
+              width={2400}
               alt=""
               className={Styles.image}
             />
@@ -83,8 +83,8 @@ export default function Post({ postData }) {
             <Image
                 priority
                 src={`/${postData.id}/sub.png`}
-                height={800}
-                width={800}
+                height={1600}
+                width={1600}
                 alt=""
               />
           </div>

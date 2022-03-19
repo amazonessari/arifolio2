@@ -17,7 +17,6 @@ To run an effective test, we develop a test plan, recruit participants, design t
 ![Test flow](/symworld/flow.png)
 
 
-
 ### 1. Plan
 
 Firstly we research the user, their problem, and how our product can solve it. 
