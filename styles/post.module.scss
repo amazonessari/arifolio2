@@ -102,7 +102,7 @@
     max-width: 1500px;
     margin: auto;
     @include mq(md) {
-        margin: 120px 24px 0;
+        padding: 120px 24px 0;
     }
 }
 
