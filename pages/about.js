@@ -58,7 +58,7 @@ export default function Home({ allPostsData }) {
             </div>
         </section>
 
-        <Title title="Workflow" id="workflow"></Title>
+        <Title title="Capability" id="Capability"></Title>
         <section className={Styles.workflowSection}>
             <div className={Styles.igPc}>
                 <div className={Styles.left}>
@@ -74,7 +74,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Strategy</h3>
                             </div>
-                            <p>Our first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
+                            <p>Conduct research to understand users and business. Make a strategy for what value we will deliver to whom based on data.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -87,7 +87,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Scope</h3>
                             </div>
-                            <p>Secondly, make a scope to define the functional and content requirements that fulfill and be aligned with the strategic goals. </p>
+                            <p>Make a scope to define the functional and content requirements that fulfill and be aligned with the strategic goals.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -100,7 +100,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Structure</h3>
                             </div>
-                            <p>Thirdly, make a structure that defines how the system behaves when users interact, how it’s organized, prioritized, and how much of it.</p>
+                            <p>Make a structure that defines how the system behaves when users interact, how it's organized, prioritized, and how much of it.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -113,7 +113,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Skeleton</h3>
                             </div>
-                            <p>And then, skeleton (wireframe) determines the visual form of all elements that make us interact with the functionality of the system.</p>
+                            <p>Skeleton (wireframe) determines the visual form of all elements that make us interact with the functionality of the system.</p>
                         </div>
                         <div className={Styles.element}>
                             <div className={Styles.header}>
@@ -126,7 +126,7 @@ export default function Home({ allPostsData }) {
                                 />
                                 <h3>Surface</h3>
                             </div>
-                            <p>Finally, we can make the surface (interface) as the sum total of the decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.</p>
+                            <p>Make the surface (interface) as the sum total of the decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.</p>
                         </div>
                     </Fade>
                 </div>
@@ -210,7 +210,7 @@ export default function Home({ allPostsData }) {
                     <svg width="488" height="219" viewBox="0 0 488 219" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M469.637 113.15L477.772 109.5L469.637 105.851L245.637 5.35052L244 4.61589L242.363 5.35052L18.3626 105.85L10.2283 109.5L18.3626 113.15L242.363 213.649L244 214.384L245.637 213.649L469.637 113.15Z" fill="#3E3E3E" fill-opacity="0.2" stroke="#090909" stroke-width="8"/></svg>
                 </div>
                 <div className={Styles.text}>
-                    <p>Our first thing to do is collect data to find issues and user needs, and make a strategy for what value we will deliver to whom.</p>
+                    <p>Conduct research to understand users and business. Make a strategy for what value we will deliver to whom based on data.</p>
                 </div>
                 <div className={Styles.stage}>
                     <Image
@@ -224,7 +224,7 @@ export default function Home({ allPostsData }) {
                     <svg width="488" height="219" viewBox="0 0 488 219" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M469.637 113.15L477.772 109.5L469.637 105.851L245.637 5.35052L244 4.61589L242.363 5.35052L18.3626 105.85L10.2283 109.5L18.3626 113.15L242.363 213.649L244 214.384L245.637 213.649L469.637 113.15Z" fill="#3E3E3E" fill-opacity="0.4" stroke="#090909" stroke-width="8"/></svg>
                 </div>
                 <div className={Styles.text}>
-                    <p>Secondly, make a scope to define the functional and content requirements that fulfill and be aligned with the strategic goals. </p>
+                    <p>Make a scope to define the functional and content requirements that fulfill and be aligned with the strategic goals.</p>
                 </div>
                 <div className={Styles.stage}>
                     <Image
@@ -238,7 +238,7 @@ export default function Home({ allPostsData }) {
                     <svg width="488" height="219" viewBox="0 0 488 219" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M469.637 113.15L477.772 109.5L469.637 105.851L245.637 5.35052L244 4.61589L242.363 5.35052L18.3626 105.85L10.2283 109.5L18.3626 113.15L242.363 213.649L244 214.384L245.637 213.649L469.637 113.15Z" fill="#3E3E3E" fill-opacity="0.6" stroke="#090909" stroke-width="8"/></svg>
                 </div>
                 <div className={Styles.text}>
-                    <p>Thirdly, make a structure that defines how the system behaves when users interact, how it’s organized, prioritized, and how much of it.</p>
+                    <p>Make a structure that defines how the system behaves when users interact, how it's organized, prioritized, and how much of it.</p>
                 </div>
                 <div className={Styles.stage}>
                     <Image
@@ -252,7 +252,7 @@ export default function Home({ allPostsData }) {
                     <svg width="488" height="219" viewBox="0 0 488 219" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M469.637 113.15L477.772 109.5L469.637 105.851L245.637 5.35052L244 4.61589L242.363 5.35052L18.3626 105.85L10.2283 109.5L18.3626 113.15L242.363 213.649L244 214.384L245.637 213.649L469.637 113.15Z" fill="#3E3E3E" fill-opacity="0.8" stroke="#090909" stroke-width="8"/></svg>
                 </div>
                 <div className={Styles.text}>
-                    <p>And then, skeleton (wireframe) determines the visual form of all elements that make us interact with the functionality of the system.</p>
+                    <p>Skeleton (wireframe) determines the visual form of all elements that make us interact with the functionality of the system.</p>
                 </div>
                 <div className={Styles.stage}>
                     <Image
@@ -266,7 +266,7 @@ export default function Home({ allPostsData }) {
                     <svg width="488" height="219" viewBox="0 0 488 219" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M469.637 113.15L477.772 109.5L469.637 105.851L245.637 5.35052L244 4.61589L242.363 5.35052L18.3626 105.85L10.2283 109.5L18.3626 113.15L242.363 213.649L244 214.384L245.637 213.649L469.637 113.15Z" fill="#3E3E3E" fill-opacity="1" stroke="#090909" stroke-width="8"/></svg>
                 </div>
                 <div className={Styles.text}>
-                    <p>Finally, we can make the surface (interface) as the sum total of the decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.</p>
+                    <p>Make the surface (interface) as the sum total of the decisions we have made. It determines how does the product will look like, and choosing the right layout, typography, colors, …etc.</p>
                 </div>
                 </Fade>
             </div>
