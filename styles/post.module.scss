@@ -3,7 +3,7 @@
 .hero{
     padding: 200px 120px 0;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1440px;
     margin: auto;
     .image{
         border-radius: 16px;
@@ -33,7 +33,7 @@
     display: flex;
     padding: 120px;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1440px;
     margin: auto;
     .summaryLeft{
         width: 50%;
@@ -64,7 +64,7 @@
     display: flex;
     align-items: flex-start;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1440px;
     margin: auto;
     .tags{
         width: 50%;
@@ -99,7 +99,7 @@
 .processTitle{
     padding: 120px 120px 0;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1440px;
     margin: auto;
     @include mq(md) {
         padding: 120px 24px 0;
