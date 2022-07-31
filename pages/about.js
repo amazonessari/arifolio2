@@ -40,9 +40,9 @@ export default function Home({ allPostsData }) {
                 <div className={Styles.text}>
                 <Fade bottom>
                     <h1>Hello👋 <br/>It's Arisa!</h1>
-                    <p>Arisa is a UIUX Designer who enjoys researching on deep insights of users.<br/>
-                    She bought a $100 laptop at the age of 20, joined a tech startup as a design intern at 21, started full-time design work at 22, and got an offer from a giant tech company at 24.<br/>
-                    She has been acquiring a high degree of skills and knowledge so tightly by exploring with her hands and her eyes, touching and examining the world with rationalism and spirited curiosity.<br/>
+                    <p>After 1 year of web design experience, I have been involved in UIUX design for these 3 years. I do research, design, test, and develop. <br/>
+                    Manage and track design process to create user centered products strategically. <br/>
+                    I take full ownership to drive impact to business through design. <br/>
                     Currently, participating as a UX researcher and UI designer in B2B services for the mobile telco industry to enable next-generation, cloud-based, international mobile services.
                     </p>
                     <div className={Styles.passion}>
