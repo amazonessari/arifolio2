@@ -178,6 +178,15 @@
                 width: 100%;
                 margin: 40px 0 0;
                 text-align: left;
+                .skillTitle{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .caption{
+                        color: $caption;
+                        font-size: 14px;
+                    }
+                }
                 .skillBar{
                     height: 2px;
                     width: 100%;
@@ -187,16 +196,13 @@
                     .length{
                         height: 100%;
                         background-color: $subprimary;
-                        &.p25{
-                            width: 25%;
+                        &.y1{
+                            width: 33%;
                         }
-                        &.p50{
-                            width: 50%;
+                        &.y2{
+                            width: 66%;
                         }
-                        &.p75{
-                            width: 75%;
-                        }
-                        &.p100{
+                        &.y3{
                             width: 100%;
                         }
                     }

@@ -53,27 +53,24 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
-{/*
-      <div className={Styles.three}>
-        <Canvas>
-            <ambientLight />
-            <pointLight position={[10, 10, 10]} />
-            <Box position={[0, 0, 0]} />
-        </Canvas>
-      </div>
-
-
-      <section className={Styles.homeHero}>
-        <Image
+      <section className={Styles.hero}>
+        <div className={Styles.text}>
+          <Fade bottom cascade>
+              <h1>Arisa is a UXUI Designer who starts from why</h1>
+          </Fade>
+        </div>
+        <div className={Styles.object}>
+          <Image
             priority
-            src="/images/logo_arifolio.svg"
-            height={120}
-            width={534}
-            alt={name}
-          />
-          <p>UXUI Designer ARISA TSUJI's Portfolio</p>
+            src="/images/icosahedron.png"
+            height={800}
+            width={800}
+            alt="object"
+            />
+          </div>
+          <div className={Styles.line}>
+          </div>
       </section>
-*/}
 
       <section id="work">
         <ul className={Styles.workList}>
