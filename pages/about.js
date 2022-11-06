@@ -44,17 +44,16 @@ export default function Home({ allPostsData }) {
                     After 1 year of web design experience, I have been involved in UXUI design for these 3 years. I do research, design, prototype, test, and code.<br/>
                     Self-motivated, execution-oriented, and maintaining an intense focus on simplicity and usability. Enjoy collaborating with other experts to continuously deliver loved products.
                     </p>
-                    <div className={Styles.passion}>
-                        <div className={Styles.passionTitle}>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.00011 14.4001L7.64656 14.7537C7.74033 14.8474 7.8675 14.9001 8.00011 14.9001C8.13272 14.9001 8.2599 14.8474 8.35367 14.7537L8.00011 14.4001ZM1.63802 8.038L1.28446 8.39155H1.28446L1.63802 8.038ZM6.97135 2.70467L6.6178 3.05822V3.05822L6.97135 2.70467ZM8.00011 3.73343L7.64656 4.08698C7.84182 4.28225 8.1584 4.28225 8.35367 4.08698L8.00011 3.73343ZM9.02888 2.70467L8.67532 2.35111V2.35111L9.02888 2.70467ZM8.35367 14.0465L1.99157 7.68445L1.28446 8.39155L7.64656 14.7537L8.35367 14.0465ZM14.0087 7.68445L7.64656 14.0465L8.35367 14.7537L14.7158 8.39155L14.0087 7.68445ZM6.6178 3.05822L7.64656 4.08698L8.35367 3.37988L7.3249 2.35111L6.6178 3.05822ZM8.35367 4.08698L9.38243 3.05822L8.67532 2.35111L7.64656 3.37988L8.35367 4.08698ZM11.6955 1.1001C10.5627 1.1001 9.47634 1.5501 8.67532 2.35111L9.38243 3.05822C9.99591 2.44474 10.828 2.1001 11.6955 2.1001V1.1001ZM14.9668 5.37133C14.9668 6.23892 14.6221 7.07097 14.0087 7.68445L14.7158 8.39155C15.5168 7.59054 15.9668 6.50414 15.9668 5.37133H14.9668ZM15.9668 5.37133C15.9668 3.0124 14.0545 1.1001 11.6955 1.1001V2.1001C13.5022 2.1001 14.9668 3.56468 14.9668 5.37133H15.9668ZM4.30468 2.1001C5.17227 2.1001 6.00432 2.44474 6.6178 3.05822L7.3249 2.35111C6.52389 1.5501 5.43748 1.1001 4.30468 1.1001V2.1001ZM1.03345 5.37133C1.03345 3.56468 2.49803 2.1001 4.30468 2.1001V1.1001C1.94574 1.1001 0.0334473 3.0124 0.0334473 5.37133H1.03345ZM1.99157 7.68445C1.37809 7.07097 1.03345 6.23892 1.03345 5.37133H0.0334473C0.0334473 6.50414 0.48345 7.59054 1.28446 8.39155L1.99157 7.68445Z" fill="#686868"/></svg>
-                        <p>Passion</p>
-                        </div>
-                        <p className={Styles.passionP}>#UX  #Design  #Technology  #Marketing  #Finance  #Telecom  #SaaS  #Investment  #Gadget  #Nature  #Traveling  #Minimalism  #Chocolate🍫</p>
-                    </div>
                     <Button link="../resume.pdf" text="View Resume" external>View Resume</Button>
                 </Fade>
                 </div>
             </div>
+        </section>
+
+        <Title title="Interest" id="Interest"></Title>
+        <section className={Styles.interestSection}>
+            <h2>#UX  #Design  #Technology  #Marketing  #Finance  #Telecom  #SaaS  #Investment  #Gadget  #Nature  #Traveling  #Minimalism  #Chocolate🍫</h2>
+            <Button link="https://arisatsujicom.super.site" text="Reading List" external>Reading List</Button>
         </section>
 
         <Title title="Capability" id="Capability"></Title>
