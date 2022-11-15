@@ -56,7 +56,7 @@ export default function Home({ allPostsData }) {
       <section className={Styles.hero}>
         <div className={Styles.text}>
           <Fade bottom cascade>
-              <h1>Arisa is a UXUI Designer who starts from why</h1>
+              <h1>Arisa is a UXUI Designer who starts with why</h1>
           </Fade>
         </div>
         <div className={Styles.object}>
