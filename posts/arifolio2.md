@@ -1,7 +1,7 @@
 ---
-title: "Self-introduction and experiment"
+title: "This portfolio website to share latest works"
 date: "2021-12-01"
-type: "This Portfolio Website"
+type: "Portfolio Website"
 figma: "https://www.figma.com/file/vkapT4Fa7K4wnlCxBOCuWx/ARIFOLIO-ver.2?node-id=403%3A432"
 github: "https://github.com/amazonessari/arifolio2"
 summary: "I created this portfolio arisatsuji.com as my self-introduction in order to connect with global leaders and talents. In this project I do everything from making contents to coding my design. This is also to experiment new design and technologies."

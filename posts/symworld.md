@@ -1,7 +1,7 @@
 ---
 title: "UX research and design for network operator"
 date: "2022-03-01"
-type: "B2B Cloud Pratform"
+type: "B2B Cloud Platform"
 url: "https://symphony.rakuten.com/symworld/welcome-to-symworld"
 summary: "Symworld is everything that modern communications service providers need to plan, build and operate advanced, secure, high-quality networks, in a single, revolutionary platform. I am in charge of UX research and design communicating closely with product owners, developers, and no less than 30 designers in a fast-growing team."
 role: ["Usability Test", "Information Architecture", "UI Design", "Prototyping", "User Interview"]
