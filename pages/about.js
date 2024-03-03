@@ -40,9 +40,8 @@ export default function Home({ allPostsData }) {
                 <div className={Styles.text}>
                 <Fade bottom>
                     <h1>Hello👋 <br/>I'm Arisa!</h1>
-                    <p>Born in 1997, raised in Japan.<br/>
-                    After 1 year of web design experience, I have been involved in UXUI design for these 3 years. I do research, design, prototype, test, and code.<br/>
-                    Self-motivated, execution-oriented, and maintaining an intense focus on simplicity and usability. Enjoy collaborating with other experts to continuously deliver loved products.
+                    <p>As a dedicated UX designer, my core expertise lies in crafting intuitive, user-centered digital experiences that not only captivate users but also significantly contribute to achieving business goals. My strength lies in my swift adaptability to complex business domains and technological ecosystems, enabling me to deliver designs that resonate with both users and stakeholders.
+Throughout my career, I have spearheaded design initiatives across various stages—from facilitating design thinking workshops to executing UXUI designs for intricate SaaS platforms.
                     </p>
                     <Button link="../resume.pdf" text="View Resume" external>View Resume</Button>
                 </Fade>
@@ -52,7 +51,7 @@ export default function Home({ allPostsData }) {
 
         <Title title="Interest" id="Interest"></Title>
         <section className={Styles.interestSection}>
-            <h2>#UX  #Design  #Technology  #Marketing  #Finance  #Telecom  #SaaS  #Investment  #Gadget  #Nature  #Traveling  #Minimalism  #Chocolate🍫</h2>
+            <h2>#Innovation  #Design  #Technology  #Marketing  #Finance  #Telecom  #Investment  #Gadget  #Nature  #Workout  #Minimalism  #Chocolate🍫</h2>
             <Button link="https://arisatsujicom.super.site" text="Reading List" external>Reading List</Button>
         </section>
 
@@ -281,7 +280,7 @@ export default function Home({ allPostsData }) {
                         width={24}
                         alt=""
                     />
-                    <h3>Research</h3>
+                    <h3>Strategy</h3>
                     <div className={Styles.skill}>
                         <div className={Styles.skillTitle}>
                             <p>User Interview</p>
@@ -291,24 +290,17 @@ export default function Home({ allPostsData }) {
                     </div>
                     <div className={Styles.skill}>
                         <div className={Styles.skillTitle}>
-                            <p>Analysis</p>
-                            <p className={Styles.caption}>1 Year</p>
-                        </div>
-                        <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y1}`}></div></Fade></div>
-                    </div>
-                    <div className={Styles.skill}>
-                        <div className={Styles.skillTitle}>
-                            <p>Information Architecture</p>
-                            <p className={Styles.caption}>3 Years</p>
-                        </div>
-                        <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y3}`}></div></Fade></div>
-                    </div>
-                    <div className={Styles.skill}>
-                        <div className={Styles.skillTitle}>
-                            <p>Usability Test</p>
+                            <p>Design Plan</p>
                             <p className={Styles.caption}>2 Years</p>
                         </div>
                         <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y2}`}></div></Fade></div>
+                    </div>
+                    <div className={Styles.skill}>
+                        <div className={Styles.skillTitle}>
+                            <p>Workshop</p>
+                            <p className={Styles.caption}>1 Year</p>
+                        </div>
+                        <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y1}`}></div></Fade></div>
                     </div>
                 </div>
                 <div className={Styles.type}>
@@ -319,7 +311,7 @@ export default function Home({ allPostsData }) {
                     width={24}
                     alt=""
                 />
-                <h3>Surface</h3>
+                <h3>Structure</h3>
                 <div className={Styles.skill}>
                     <div className={Styles.skillTitle}>
                         <p>Visual Identity</p>
@@ -329,14 +321,7 @@ export default function Home({ allPostsData }) {
                 </div>
                 <div className={Styles.skill}>
                     <div className={Styles.skillTitle}>
-                        <p>Design System</p>
-                        <p className={Styles.caption}>3 Years</p>
-                    </div>
-                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y3}`}></div></Fade></div>
-                </div>
-                <div className={Styles.skill}>
-                    <div className={Styles.skillTitle}>
-                        <p>UI Design</p>
+                        <p>Information Architecture</p>
                         <p className={Styles.caption}>3 Years</p>
                     </div>
                     <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y3}`}></div></Fade></div>
@@ -357,34 +342,27 @@ export default function Home({ allPostsData }) {
                     width={24}
                     alt=""
                 />
-                <h3>Technology</h3>
+                <h3>Surface</h3>
                 <div className={Styles.skill}>
                     <div className={Styles.skillTitle}>
-                        <p>HTML</p>
+                        <p>Design System</p>
                         <p className={Styles.caption}>3 Years</p>
                     </div>
                     <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y3}`}></div></Fade></div>
                 </div>
                 <div className={Styles.skill}>
                     <div className={Styles.skillTitle}>
-                        <p>CSS</p>
+                        <p>UI Design</p>
                         <p className={Styles.caption}>3 Years</p>
                     </div>
                     <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y3}`}></div></Fade></div>
                 </div>
                 <div className={Styles.skill}>
                     <div className={Styles.skillTitle}>
-                        <p>JavaScript</p>
-                        <p className={Styles.caption}>1 Year</p>
+                        <p>Code</p>
+                        <p className={Styles.caption}>3 Years</p>
                     </div>
-                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y1}`}></div></Fade></div>
-                </div>
-                <div className={Styles.skill}>
-                    <div className={Styles.skillTitle}>
-                        <p>WordPress</p>
-                        <p className={Styles.caption}>1 Year</p>
-                    </div>
-                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y1}`}></div></Fade></div>
+                    <div className={Styles.skillBar}><Fade left><div className={`${Styles.length} ${Styles.y3}`}></div></Fade></div>
                 </div>
                 </div>
             </div>
