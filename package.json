@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm install --legacy-peer-deps && next build",
     "start": "next start"
   },
   "dependencies": {
@@ -25,8 +25,8 @@
     "sass": "^1.45.0",
     "three": "^0.135.0",
     "zenn-content-css": "^0.1.81",
-    "zenn-markdown-html": "^0.1.81",
-    "zenn-embed-elements": "^0.1.81"
+    "zenn-embed-elements": "^0.1.81",
+    "zenn-markdown-html": "^0.1.81"
   },
   "devDependencies": {
     "raw-loader": "^4.0.2"
