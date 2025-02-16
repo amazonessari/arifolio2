@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Styles from '../../styles/post.module.scss'
 import Button from '../../components/button'
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-awesome-reveal/Fade'
 import Link from 'next/link'
 
 export async function getStaticProps({ params }) {
