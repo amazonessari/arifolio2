@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom'
 import React, { useRef, useState } from 'react'
 import { useFrame } from '@react-three/fiber'
 
-import Fade from 'react-awesome-reveal/Fade';
+import { Fade } from 'react-awesome-reveal/Fade';
 
 const name = 'ARIFOLIO'
 const scene = new THREE.Scene();
