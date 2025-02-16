@@ -40,10 +40,9 @@ export default function Home({ allPostsData }) {
                 <div className={Styles.text}>
                 <Fade bottom>
                     <h1>Hello👋 <br/>I'm Arisa!</h1>
-                    <p>As a dedicated UX designer, my core expertise lies in crafting intuitive, user-centered digital experiences that not only captivate users but also significantly contribute to achieving business goals. My strength lies in my swift adaptability to complex business domains and technological ecosystems, enabling me to deliver designs that resonate with both users and stakeholders.
-Throughout my career, I have spearheaded design initiatives across various stages—from facilitating design thinking workshops to executing UXUI designs for intricate SaaS platforms.
+                    <p>I am a Product Designer who believes that design is the bridge between vision and real-world impact. My strength lies in my swift adaptability to complex business domains and technological ecosystems, enabling me to deliver designs that resonate with both users and stakeholders.
+                    Throughout my career, I have spearheaded design initiatives across various stages—from advocating design thinking to executing UXUI designs for intricate SaaS platforms.
                     </p>
-                    <Button link="../resume.pdf" text="View Resume" external>View Resume</Button>
                 </Fade>
                 </div>
             </div>
@@ -51,8 +50,7 @@ Throughout my career, I have spearheaded design initiatives across various stage
 
         <Title title="Interest" id="Interest"></Title>
         <section className={Styles.interestSection}>
-            <h2>#Innovation  #Design  #Technology  #Marketing  #Finance  #Telecom  #Investment  #Gadget  #Nature  #Workout  #Minimalism  #Chocolate🍫</h2>
-            <Button link="https://arisatsujicom.super.site" text="Reading List" external>Reading List</Button>
+            <h2>#Innovation  #Design  #Technology  #ProductManagement  #Marketing  #Finance  #Telecom  #Investment  #Gadget  #Nature  #Workout  #Minimalism  #Chocolate🍫</h2>
         </section>
 
         <Title title="Capability" id="Capability"></Title>
