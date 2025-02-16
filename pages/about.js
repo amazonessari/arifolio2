@@ -5,7 +5,7 @@ import Layout, { siteTitle } from '../components/layout'
 import Styles from '../styles/about.module.scss'
 import Button from '../components/button';
 
-import { Fade } from 'react-awesome-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 export default function Home({ allPostsData }) {
     return (
